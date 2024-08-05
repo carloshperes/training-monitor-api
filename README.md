@@ -47,9 +47,32 @@ bun run dev
 cp .env.example .env
 ```
 
-## Caso seja necessário
+### 4. Configure o seu .env
 
-4. Você prode trocar o URL da API de backend (você pode encontrar ela aqui: )
+```
+APP_URL=http://localhost:8000
+FRONTEND_URL=http://localhost:3000
+```
+
+### 5. Gere a chave da aplicação
+
+```
+php artisan key:generate
+```
+
+### 6. Execute as migrações do banco de dados
+
+```
+php artisan migrate --seed
+```
+
+### 7. Inicie o servidor de desenvolvimento
+
+```
+php artisan serve
+```
+
+A aplicação estará disponível em http://localhost:8000.
 
 ## License
 
