@@ -17,27 +17,27 @@ class EmployeeSeeder extends Seeder
             [
                 'name'      => 'Carlos Peres',
                 'position'  => 'Desenvolvedor Full Stack',
-                'avatar'    => '' 
+                'avatar'    => '/avatars/carlos-peres.png' 
             ],
             [
                 'name'      => 'Alan Turin',
                 'position'  => 'Matemático',
-                'avatar'    => '' 
+                'avatar'    => 'alan-turing.jpg' 
             ],
             [
                 'name'      => 'Linus Torvalds',
                 'position'  => 'Desenvolvedor C',
-                'avatar'    => '' 
+                'avatar'    => '/avatars/linus-torvalds.jpg' 
             ],
             [
                 'name'      => 'Steve Jobs',
                 'position'  => 'Gerente de Produto',
-                'avatar'    => '' 
+                'avatar'    => '/avatars/steve-jobs.jpg' 
             ],
             [
                 'name'      => 'John Doe',
                 'position'  => 'Estagiário',
-                'avatar'    => '' 
+                'avatar'    => '/avatars/john-doe.jpg' 
             ],
         ];
 

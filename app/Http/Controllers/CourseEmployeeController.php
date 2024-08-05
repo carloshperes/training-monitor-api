@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\CourseEmployee;
 use Illuminate\Http\Request;
 
 class CourseEmployeeController extends Controller
@@ -11,7 +12,9 @@ class CourseEmployeeController extends Controller
      */
     public function index()
     {
-        //
+        return [
+            'data'  => CourseEmployee::with('courses', 'employees')->paginate(10)
+        ];
     }
 
     /**
